@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Maja Franaszek -- designer
+    Rafal Faron -- Coder
+
+# THANKS
+   
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, 
+    bootstrap, jQuery, Modernizr, History.js, Ajaxify.js, blueimp-gallery.js

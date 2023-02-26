@@ -1,0 +1,346 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+	
+
+body {
+	
+	   background-color: white;
+	  color: black; 
+	  padding-top:30px;
+	  padding-bottom: 40px;
+}
+
+.container {
+	
+	max-width: 1000px;
+	
+	
+}
+
+.thumb-table {
+	max-width: 1000px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+
+
+.thumb-table > .row {
+	padding-bottom: 30px;
+	/*padding-top: 10px;*/
+}
+
+.thumb-table .thumbnail {
+	margin: 15px;
+	max-width: 300px;
+	padding: 0px; 
+	border : none;
+	display: inline-block;
+	vertical-align: top;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+}
+.thumb-table .thumbnail .caption {
+	color: #000000;
+	max-height: 0px;
+	background-color: #white;
+	border-style: none;
+    border-width: 0px;
+    border-color: #303030;
+
+}
+
+.thumb-table .thumbnail .caption {
+    color: #000000;
+    max-height: 0px;
+    background-color: #ffffff;
+    border-style: none;
+    border-width: 0px;
+    border-color: #303030; 
+}
+.thumb-table .thumbnail .sinlgeLineThumbCapition > p {
+	line-height: 48px; */
+}
+
+.thumb-table a:hover,
+.thumb-table a:focus  { 
+   text-decoration: none;
+}
+.thumbnail:hover {
+	background-color: #ce2027;
+	opacity: 1;
+}
+.navbar-inverse {
+	background-color: #000000;
+	border: none;
+	margin-bottom:0px;
+	min-height: 30px;
+}
+
+.navbar .brand,
+.nav-collapse {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+.navbar-inner > .container { text-align:center; }
+
+
+.navbar-inner .container > .navbar-text {
+	float: none;
+	font-family: Oswald, Lato, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 2px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+@media (max-width: 979px) {
+    .navbar .brand,
+    .nav-collapse {
+        display: block;
+    }
+}
+
+.jumbotron {
+	
+  padding: 30px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  
+  border-bottom: solid;
+  border-width: 1px;
+  
+  
+  
+}
+
+@media screen and (min-width: 768px) {
+  .container .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1 {
+    font-size: 63px;
+  }
+}
+
+.headerBanner {
+	padding : 0px;
+	margin: -20px;
+	margin-bottom: 15px;
+}
+
+.jumbotron .background-img {
+  width: 100%;
+  min-height: 60px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.jumbotron .background-img {
+  width: 100%;
+  min-height: 60px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.contactData {
+	background-color: black;
+	color: #white;
+	margin-bottom: 0px;
+	font-family: Oswald , Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 21px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+@media (min-width: 1200px) {
+	.contactData .opis
+	{
+		margin-top: 60px;
+	}
+}
+@media (min-width: 768px){
+	.contactData {
+		font-size: 24px;
+		
+	}
+.contactData .row > .col-md-9 {
+	
+    position: relative;
+    height: 352px;
+    padding-left: 30px;
+}
+.contactData .row .col-md-9 h3 {
+    position: absolute;
+    top: 0;
+     margin-top: 50px;
+}
+
+.contactData .row .col-md-9 p {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;  
+    
+}
+
+@media (min-width: 480px){
+	.contactData .row .col-md-9 p {
+	    height: 150px;
+	}
+}
+
+@media (min-width: 768px){
+	.contactData .row .col-md-9 p {
+	    height: 150px;
+	}
+}
+
+.contactData .row .col-md-9 a {
+    position: absolute;   
+    bottom: 0;    
+}
+
+
+.content {
+	
+	margin-bottom: 30px;
+}
+
+/* Gallery styles
+-------------------------------------------------- */
+.galleryThumbnail {
+	display: inline-block;
+	padding: 0px;
+	border: none;
+}
+
+/* Custom button
+-------------------------------------------------- */
+
+
+.btn-ttc,
+.btn-ttc:active {
+  color: black;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #d1ff44;
+}
+
+.btn-ttc:hover,
+.btn-ttc:focus {
+  background-color: white;
+}
+
+.footerData {
+	background-color: white;
+	font-family: Oswald , Lato, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 20px;
+	color: #777;
+}
+
+.footerData a{
+	color: #000;
+	text-decoration: none;
+}
+.footerData a:hover,
+.footerData a:focus{
+	color: #F19A55;
+	text-decoration: none;
+}
+
+@media (max-width: 768px){
+	.copyRight {
+		text-align: left;
+		
+	
+	}
+}
+
+
+hr
+{
+	
+size: 5px;
+color: #000000;
+}
+
+.navbar-collapse
+{
+	background-color: #FFFFFF;
+	text-align:center;
+	padding: 0 auto;
+	margin: 0 auto;
+	 width: 100%;
+}
+
+.navbar-nav
+{
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 0 auto;
+	margin: 0 auto;
+	float: none;
+	display: inline-block;
+
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+}
+.text-left {
+	color: white;
+}
+.text-left2 {
+	color: #000;
+}
+p
+{
+	color: #777;
+	
+}
+.zdanie2
+{color: white;
+margin-bottom: 15px;
+font-size: 21px;
+font-weight: 200;
+margin-top: 0px;
+}
+.tm
+{
+	margin-bottom: 1px;
+	
+}
+
+.tm {
+		    color: #fff;
+	    text-decoration: none;
+	    font-weight: bold;
+	    letter-spacing: 2px;
+	   margin-bottom: 0;
+	   line-height: 20%
+	   
+}	
+
+.tm:hover{
+	color: white
+}
+.col-sm-5
+{margin: 0px}
+
+
+
