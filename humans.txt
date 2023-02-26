@@ -3,8 +3,7 @@
 
 # TEAM
 
-    Maja Franaszek -- designer
-    Rafal Faron -- Coder
+    Maja Faron -- designer
 
 # THANKS
    
