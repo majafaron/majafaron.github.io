@@ -69,7 +69,7 @@ body {
    text-decoration: none;
 }
 .thumbnail:hover {
-	background-color: #ce2027;
+	background-color: #bababa;
 	opacity: 1;
 }
 .navbar-inverse {
@@ -92,9 +92,9 @@ body {
 
 .navbar-inner .container > .navbar-text {
 	float: none;
-	font-family: Oswald, Lato, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: Poppins, Oswald, Lato, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: medium;
 	margin-bottom: 0px;
 	margin-top: 2px;
 	letter-spacing: 1px;
@@ -151,16 +151,18 @@ body {
   position: relative;
   top: 0;
   left: 0;
+  padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .contactData {
 	background-color: black;
 	color: #white;
 	margin-bottom: 0px;
-	font-family: Oswald , Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: Poppins, Oswald , Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 21px;
-	padding-bottom: 0px;
-	padding-top: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 @media (min-width: 1200px) {
 	.contactData .opis
@@ -244,7 +246,7 @@ body {
 
 .footerData {
 	background-color: white;
-	font-family: Oswald , Lato, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: Poppins, Oswald , Lato, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 20px;
 	color: #777;
 }
@@ -252,6 +254,7 @@ body {
 .footerData a{
 	color: #000;
 	text-decoration: none;
+	
 }
 .footerData a:hover,
 .footerData a:focus{
