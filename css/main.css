@@ -237,9 +237,9 @@ body {
 
 .btn-ttc,
 .btn-ttc:active {
-  color: black;
+  color: rgb(255, 255, 255);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #d1ff44;
+  background-color: #4a63ab;
 }
 
 .btn-ttc:hover,
@@ -333,7 +333,7 @@ margin-top: 0px;
 }
 
 .tm {
-		    color: #bae900;
+		    color: #4a63ab;
 	    text-decoration: none;
 	    font-weight: bold;
 	    letter-spacing: 2px;
