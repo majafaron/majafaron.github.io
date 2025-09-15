@@ -73,7 +73,7 @@ body {
 	opacity: 1;
 }
 .navbar-inverse {
-	background-color: #fb9f48;
+	background-color: #ddad65;
 	border: none;
 	margin-bottom:0px;
 	min-height: 30px;
@@ -93,7 +93,7 @@ body {
 .navbar-inner .container > .navbar-text {
 
 	float: none;
-	font-family: Poppins, Oswald, Lato, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: parisian BT, Lato, Poppins, Oswald, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: medium;
 	margin-bottom: 0px;
@@ -162,7 +162,7 @@ body {
 	background-color: rgb(255, 255, 255);
 	color: #white;
 	margin-bottom: 0px;
-	font-family: Poppins, Oswald , Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: parisian BT, Lato, Poppins, Oswald, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 21px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -249,7 +249,7 @@ body {
 
 .footerData {
 	background-color: white;
-	font-family: Poppins, Oswald , Lato, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: parisian BT, Lato, Poppins, Oswald, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 20px;
 	color: #777;
 }
@@ -261,7 +261,7 @@ body {
 }
 .footerData a:hover,
 .footerData a:focus{
-	color: #F19A55;
+	color: ##ddad65;
 	text-decoration: none;
 }
 
@@ -333,7 +333,7 @@ margin-top: 0px;
 }
 
 .tm {
-		    color: #ee8533;
+		    color: #ddad65;
 	    text-decoration: none;
 	    font-weight: bold;
 	    letter-spacing: 2px;
