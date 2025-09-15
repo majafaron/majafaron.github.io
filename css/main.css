@@ -239,7 +239,7 @@ body {
 .btn-ttc:active {
   color: rgb(255, 255, 255);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #43966b;
+  background-color: #3e5751;
 }
 
 .btn-ttc:hover,
