@@ -74,7 +74,7 @@ body {
 	opacity: 1;
 }
 .navbar-inverse {
-	background-color: #2552f4;
+	background-color: #d2924b;
 	border: none;
 	margin-bottom:0px;
 	min-height: 30px;
@@ -240,7 +240,7 @@ body {
 .btn-ttc:active {
   color: rgb(255, 255, 255);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #2552f4;
+  background-color: #d2924b;
 }
 
 .btn-ttc:hover,
@@ -334,7 +334,7 @@ margin-top: 0px;
 }
 
 .tm {
-		    color: #2552f4;
+		    color: #d2924b;
 	    text-decoration: none;
 	    font-weight: bold;
 	    letter-spacing: 2px;
